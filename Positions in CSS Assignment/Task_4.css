@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+}
+
+.container {
+    width: 69%;
+    border: 2px solid black;
+    height: 50vh; /* Ensure the container fills the viewport height */
+    overflow: auto; /* Add scrollbars when content exceeds the box */
+    margin-left: 5rem;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 66%;
+    background-color:black;
+    color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 16px;
+    margin-left: 5rem;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    font-family: 'Patrick Hand', cursive;
+    margin-left: 30rem;
+}
+
+.nav li {
+    margin-right: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+.nav a:hover {
+    color: gray;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: 1px solid #B8860B;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #B8860B;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.content {
+    padding: 70px 20px 20px 20px;
+}
+
+/* Add your content styles below */
