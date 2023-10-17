@@ -1,0 +1,13 @@
+/*
+PrIblem Statement
+explain the difference between Absolute and Relative positionin.
+*/
+Answer:-Answer:-     Relative Positioning    positions an element relative to its normal positions in the document flow. Its original position using properties like ‘top’,’right’,’button’,and ‘left’. These properties move the element from its default position, but the space it would have occupied remains reserved. Relative positioning does not take the element out of document flow, so other elements on the pages still respect its space.
+ Example:-  .box{ position:relative:
+Top:20px;
+Left:20px;}
+Absolute Positioning:-   Absolute Positioning takes an elements out of the normal documet flow, so it dose not affect the   positioning of other elements. When using absolute positioning , the elements is removed from the normal document flow, and its position is determined by the values of the top, right, bottom, left properties. Absolute positioning is often to create overlays, tooltips,or elements that need to be precisely positioned on the page without affecting layout of other content.
+Example:- {position:absolute;
+Top:10px;
+Left:10px;
+}
